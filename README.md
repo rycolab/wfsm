@@ -1,4 +1,4 @@
-# Inference Algorithms for Weighted Finite-State Machines
+a# Inference Algorithms for Weighted Finite-State Machines
 This library contains an implementation for finding derivatives for Weighted
 Finite-State Machines (WFSMs).
 A detalied description of these algorithms and their runtimes, including
@@ -7,18 +7,23 @@ proofs of correctness can be found in
 
 ## Citation
 
-This code is for the papers _Please Mind the Root: Decoding Arborescences for Dependency Parsing_ and
-_On Finding the K-best Non-projective Dependency Trees_ featured in EMNLP 2020 and ACL 2021 respectively.
+This code is for the papers _Higher-order Derivatives of Weighted Finite-state Machines_ featured in ACL 2021.
 Please cite as:
 
 ```bibtex
-@inproceedings{zmigrod-etal-2021-wfsm,
+@inproceedings{zmigrod-etal-2021-higher,
     title = "Higher-order Derivatives of Weighted Finite-state Machines",
     author = "Zmigrod, Ran  and
       Vieira, Tim  and
       Cotterell, Ryan",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+    month = aug,
     year = "2021",
-    url = "https://arxiv.org/abs/2106.00749",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-short.32",
+    doi = "10.18653/v1/2021.acl-short.32",
+    pages = "240--248",
 }
 ```
 
